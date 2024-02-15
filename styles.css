@@ -22,6 +22,8 @@ body {
     flex-direction: column;
     height: auto;
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
   hr {
@@ -39,6 +41,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   flex-direction: row;
+  flex-wrap: wrap;
 
   .card {
     display: flex;
@@ -48,6 +51,7 @@ body {
     background-color: plum;
     margin: 1rem;
     border-radius: 5px;
+    max-width: 10rem;
   }
 }
 .galleryImage{
