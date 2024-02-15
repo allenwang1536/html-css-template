@@ -7,14 +7,50 @@
 }
 body {
   display: flex;
+  background-color: purple;
+  color: gold;
+  font-family:'Times New Roman', Times, serif;
 }
-#staffGallery{
-  width: 70vw;
-  display: inherit;
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
 
+  #logoBar{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .card{ 
+    width: 100%;
+  }
+}
+
+#staffGallery{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: plum;
+    margin: 1rem;
+    border-radius: 5px;
+  }
 }
 .galleryImage{
   width: 100%;
   height: auto;
-  height: 300px;
 }
