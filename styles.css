@@ -52,6 +52,7 @@ body {
     margin: 1rem;
     border-radius: 5px;
     max-width: 10rem;
+    color: black;
   }
 }
 .galleryImage{
